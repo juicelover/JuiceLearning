@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider_horizontal_black"
+    android:showDividers="middle"
+    android:background="@color/white">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="@string/app_name">
+    </Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_horizontal_black"
+            android:showDividers="middle|end"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_juicelearning_java"
+                style="@style/ListTextStyle"
+                android:text="@string/juiceLearning_java"/>
+
+            <TextView
+                android:id="@+id/id_juicelearning_ndk"
+                style="@style/ListTextStyle"
+                android:text="@string/juiceLearning_ndk"/>
+
+            <TextView
+                android:id="@+id/id_juicelearning_framework"
+                style="@style/ListTextStyle"
+                android:text="@string/juiceLearning_framework"/>
+
+            <TextView
+                android:id="@+id/id_juicelearning_high_level_ui"
+                style="@style/ListTextStyle"
+                android:text="@string/juiceLearning_high_level_ui"/>
+
+            <TextView
+                android:id="@+id/id_juicelearning_open_frame"
+                style="@style/ListTextStyle"
+                android:text="@string/juiceLearning_open_frame"/>
+
+            <TextView
+                android:id="@+id/id_juicelearning_jetpack"
+                style="@style/ListTextStyle"
+                android:text="@string/juiceLearning_jetpack"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JuiceLearning</string>
+    <string name="juiceLearning_java">Java</string>
+    <string name="juiceLearning_ndk">NDK</string>
+    <string name="juiceLearning_framework">FrameWork</string>
+    <string name="juiceLearning_high_level_ui">高级UI</string>
+    <string name="juiceLearning_open_frame">开源框架</string>
+    <string name="juiceLearning_jetpack">JetPack</string>
+    <string name="juiceLearning_juice_secret">果汁的秘密基地</string>
+
+    <!-- java -->
+    <string name="juiceLearning_java_generics">泛型</string>
+
+
+</resources>
