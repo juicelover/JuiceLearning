@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".java.JavaActivity"/>
+        <activity android:name=".java.annotation.AnnotationActivity" />
     </application>
 
 </manifest>

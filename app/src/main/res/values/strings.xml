@@ -9,7 +9,9 @@
     <string name="juiceLearning_juice_secret">果汁的秘密基地</string>
 
     <!-- java -->
-    <string name="juiceLearning_java_generics">泛型</string>
+    <string name="juiceLearning_java_generics">泛型（generics）</string>
+    <string name="juiceLearning_annotation">注解（annotation）</string>
+    <string name="juiceLearning_reflection">反射（reflection）</string>
 
 
 </resources>

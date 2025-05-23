@@ -25,19 +25,19 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/id_juicelearning_java"
+                android:id="@+id/id_juicelearning_generics"
                 style="@style/ListTextStyle"
                 android:text="@string/juiceLearning_java_generics"/>
 
             <TextView
-                android:id="@+id/id_juicelearning_ndk"
+                android:id="@+id/id_juicelearning_annotation"
                 style="@style/ListTextStyle"
-                android:text="@string/juiceLearning_ndk"/>
+                android:text="@string/juiceLearning_annotation"/>
 
             <TextView
-                android:id="@+id/id_juicelearning_framework"
+                android:id="@+id/id_juicelearning_reflection"
                 style="@style/ListTextStyle"
-                android:text="@string/juiceLearning_framework"/>
+                android:text="@string/juiceLearning_reflection"/>
 
             <TextView
                 android:id="@+id/id_juicelearning_high_level_ui"
